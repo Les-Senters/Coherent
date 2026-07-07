@@ -2,7 +2,7 @@
 members = [
     "Logigate-architecture",
     "zkp-coordinate-vault",
-    "ZKP-Vault-"
+    "kinetic-logic"
 ]
 resolver = "2"
 
