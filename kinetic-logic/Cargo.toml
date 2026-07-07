@@ -1,0 +1,12 @@
+[package]
+name = "kinetic-logic"
+version = "1.0.0"
+edition = "2021"
+description = "Multi-tier cognitive context routing and runtime orchestration engine."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+zkp-coordinate-vault = { path = "../zkp-coordinate-vault" }
+logigate-architecture = { path = "../Logigate-architecture" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
