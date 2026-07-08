@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "If you utilize this zero-entropy middleware architecture in production networks, cite it as below."
+message: "If you use this architectural blueprint or build an implementation of this framework, please cite it as below."
 authors:
-  - name: "Zkpvault Sovereignty"
-title: "Coherent: Zero-Entropy Logic & Memory-Purging AI Sandbox Middleware"
-version: 1.0.0
-date-released: "2026-07-07"
+  - family-names: "Senters"
+    given-names: "Les"
+title: "Coherent Framework: Architectural Specification"
+version: "1.0.0"
+date-released: 2026-07-07
 url: "https://github.com/Les-Senters/Coherent"
