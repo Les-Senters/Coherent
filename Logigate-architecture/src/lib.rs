@@ -34,8 +34,8 @@ impl LogigateSandbox {
         self.frt_armed.store(true, Ordering::SeqCst);
         
         let mut cache = self.memory_bank.internal_registers.lock().unwrap();
-        for (k, v) in cache.iter_mut() {
-            *k = String::from("00000000");
+        // Overwrite the values to clear the data layout, leaving keys untouched before dropping
+        for (_k, v) in cache.iter_mut() {
             *v = String::from("00000000");
         }
         cache.clear();
